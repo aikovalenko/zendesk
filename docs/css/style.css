@@ -1,0 +1,239 @@
+/* colors */
+/* font */
+/* queries */
+.container-inner
+{
+    max-width: 972px;
+}
+
+.footer
+{
+    height: auto;
+
+    background-color: #ebebed;
+}
+
+.powered-by-zendesk
+{
+    padding-bottom: 30px; 
+
+    background-color: #ebebed;
+}
+
+.header-page
+{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+
+    padding: 20px 0;
+
+    -webkit-transition: all 250ms,background-color 500ms;
+         -o-transition: all 250ms,background-color 500ms;
+            transition: all 250ms,background-color 500ms;
+
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.header-page .standard-logo
+{
+    display: none;
+}
+
+.header--sticky
+{
+    padding: 0; 
+
+    background-color: rgba(255, 255, 255, .95);
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .05), 0 0 5px 0 rgba(0, 0, 0, .1);
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, .05), 0 0 5px 0 rgba(0, 0, 0, .1);
+}
+.header--sticky .standard-logo
+{
+    display: block;
+}
+.header--sticky .light-logo
+{
+    display: none;
+}
+.header--sticky .btn--mimic
+{
+    color: #89888e;
+}
+
+.btn--mimic
+{
+    font-size: 14px;
+
+    display: inline-block;
+
+    padding: 7px 24px 7px 22px;
+
+    text-transform: none; 
+
+    color: #fff;
+    border: 1px solid #d6d5dc;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+}
+.btn--mimic:hover
+{
+    color: #89888e;
+    border: 1px solid #d6d5dc;
+}
+
+.btn--load
+{
+    font-size: 30px;
+
+    display: block;
+
+    margin: 30px auto;
+    padding: 30px 50px;
+
+    color: #000;
+    border: 1px solid #d6d5dc;
+}
+
+.article-list-item__link
+{
+    color: #3eae5f;
+}
+
+.category-tree-item__title-link
+{
+    font-weight: 800;
+
+    color: #3e3e3e;
+}
+
+.section__title-link
+{
+    color: #3e3e3e;
+}
+
+.scroll-to-top
+{
+    color: #3eae5f;
+    border-color: #3eae5f;
+}
+
+.category-list-item__link
+{
+    background-color: #3e3e3e;
+}
+
+.form-search
+{
+    position: relative; 
+
+    max-width: 472px;
+    margin: 20px auto 0;
+}
+.form-search input[type='text']
+{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+
+    overflow: visible;
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 0; 
+    padding: 17px;
+    padding-left: 47px;
+
+    -webkit-transition: none;
+         -o-transition: none;
+            transition: none;
+    text-transform: none;
+
+    color: #3e3e40;
+    border: 1px solid #e0e0e0;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    outline: none;
+}
+.form-search button[type='submit']
+{
+    font-weight: 200;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 172px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: background-color 300ms ease-out;
+         -o-transition: background-color 300ms ease-out;
+            transition: background-color 300ms ease-out; 
+
+    color: #fff;
+    border: none;
+    border-color: #5dc57c;
+    -webkit-border-radius: 0 4px 4px 0;
+            border-radius: 0 4px 4px 0;
+    outline: none;
+    background-color: #3eae5f;
+}
+
+.preloader
+{
+    display: none;
+
+    margin: 30px 0; 
+
+    text-align: center;
+}
+.preloader--loading
+{
+    display: block;
+}
+
+.post-ajax
+{
+    -webkit-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease; 
+    -webkit-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+            transform: translateY(100px);
+
+    opacity: 0;
+
+    will-change: transform;
+}
+.post-ajax--shown
+{
+    -webkit-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease; 
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px)
+{
+    .intro-title
+    {
+        margin-top: 80px;
+    }
+    .form-search
+    {
+        margin: 0 auto 0;
+    }
+    .form-search button[type='submit']
+    {
+        position: absolute;
+
+        width: 60px;
+    }
+}
